@@ -148,7 +148,7 @@ const ProjectSlider: React.FC = () => {
 
                   <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
                     <img
-                      src={project.image}
+                      // src={project.image}
                       alt={`${project.title}-project-mockup`}
                       className={`w-full h-auto transition-all duration-[6000ms] transform opacity-100 hover:translate-y-[-50%] 
                       `}
@@ -164,8 +164,8 @@ const ProjectSlider: React.FC = () => {
               >
                 <h2 className="text-white">{project.title}</h2>
                 <img
-                  src={project.image}
-                  alt={project.image}
+                  // src={project.image}
+                  // alt={project.image}
                   className="h-[35vh] w-full object-cover object-top rounded-3xl"
                 />
                 <div className="buttons flex gap-10 max-lg:flex-col">
